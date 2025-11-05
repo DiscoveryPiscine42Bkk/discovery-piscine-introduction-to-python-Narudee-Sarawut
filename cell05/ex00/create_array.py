@@ -1,2 +1,2 @@
-numbers = [1, 2, 3, 4, 5, 10, 20, 30]
+numbers = [2, 8, 9, 48, 8, 22, -12, 2]
 print("My array of numbers is:", numbers)
