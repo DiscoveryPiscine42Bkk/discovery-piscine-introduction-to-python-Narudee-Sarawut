@@ -1,9 +1,9 @@
-table = 1
+table = 0
 while table <= 10:
-    print(f"\nMultiplication table for {table}:")  
-    multiplier = 1
+    print(f"Table de {table}:", end=" ") 
+    multiplier = 0
     while multiplier <= 10:
-        result = table * multiplier
-        print(f"{table} x {multiplier} = {result}")
+        print(table * multiplier, end=" ")
         multiplier += 1
+    print()
     table += 1
